@@ -4,7 +4,7 @@ EELAYER 29 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
-Sheet 1 13
+Sheet 1 14
 Title ""
 Date ""
 Rev ""
@@ -85,5 +85,11 @@ S 9175 2800 1225 1175
 U 60205EE8
 F0 "BASIC" 50
 F1 "BASIC.sch" 50
+$EndSheet
+$Sheet
+S 1050 4475 1225 1175
+U 60250803
+F0 "MMU" 50
+F1 "MMU.sch" 50
 $EndSheet
 $EndSCHEMATC

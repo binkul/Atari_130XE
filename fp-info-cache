@@ -1,4 +1,4 @@
-41173300614332
+25015298561229
 Atari
 Big_hole
 
@@ -13,13 +13,6 @@ Cartridge_Slot
 0
 30
 30
-Atari
-C_Axial_L5.1mm_D2.5mm_P12.50mm_Horizontal
-C, Axial series, Axial, Horizontal, pin pitch=12.5mm, , length*diameter=5.1*3.1mm^2, http://www.vishay.com/docs/45231/arseries.pdf
-C Axial series Axial Horizontal pin pitch 12.5mm  length 5.1mm diameter 3.1mm
-0
-2
-2
 Atari
 DE0703_Coil
 
@@ -49,26 +42,12 @@ DIN_7_pin
 9
 7
 Atari
-D_SOD-323_HandSoldering
-SOD-323
-SOD-323
-0
-2
-2
-Atari
 Ekran_GND
 
 
 0
 1
 1
-Atari
-Expansion_Slot
-
-
-0
-14
-14
 Atari
 Hole_3.4mm
 
@@ -91,13 +70,6 @@ Joystick_Pport
 9
 9
 Atari
-L_Axial_L7.0mm_D3.3mm_P12.50mm_Horizontal_Fastron_MICC
-Inductor, Axial series, Axial, Horizontal, pin pitch=12.7mm, , length*diameter=7*3.3mm^2, Fastron, MICC, http://www.fastrongroup.com/image-show/70/MICC.pdf?type=Complete-DataSheet&productType=series
-Inductor Axial series Axial Horizontal pin pitch 12.7mm  length 7mm diameter 3.3mm Fastron MICC
-0
-2
-2
-Atari
 Medium_hole
 
 
@@ -111,41 +83,6 @@ Modulator_TV
 0
 9
 9
-Atari
-Pin
-
-
-0
-1
-1
-Atari
-PinHeader_1x12_P2.54mm_Vertical_thin
-Through hole straight pin header, 1x12, 2.54mm pitch, single row
-Through hole pin header THT 1x12 2.54mm single row
-0
-12
-12
-Atari
-PinHeader_1x14_P2.54mm_Vertical_thin
-Through hole straight pin header, 1x14, 2.54mm pitch, single row
-Through hole pin header THT 1x14 2.54mm single row
-0
-14
-14
-Atari
-PLCC-32_THT-Socket
-PLCC, 44 pins, through hole
-plcc leaded
-0
-32
-32
-Atari
-R_Axial_DIN0207_L3.6mm_D2.2mm_P10.16mm_Horizontal
-Resistor, Axial_DIN0204 series, Axial, Horizontal, pin pitch=7.62mm, 0.167W, length*diameter=3.6*1.6mm^2, http://cdn-reichelt.de/documents/datenblatt/B400/1_4W%23YAG.pdf
-Resistor Axial_DIN0204 series Axial Horizontal pin pitch 7.62mm 0.167W length 3.6mm diameter 1.6mm
-0
-2
-2
 Atari
 SIO_Slot
 
@@ -167,13 +104,6 @@ SMD_C
 0
 2
 2
-Atari
-SOJ-26
-
-
-0
-20
-20
 Atari
 Switch_ON-OFF
 
