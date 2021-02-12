@@ -4,7 +4,7 @@ EELAYER 29 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
-Sheet 7 14
+Sheet 7 15
 Title ""
 Date ""
 Rev ""
@@ -77,4 +77,116 @@ Wire Wire Line
 	2650 3950 3125 3950
 Wire Wire Line
 	3125 3950 3125 3750
+$Comp
+L Atari:Cartridge J24
+U 1 1 602F6C5A
+P 6700 3500
+F 0 "J24" H 6783 5215 50  0000 C CNN
+F 1 "Cartridge" H 6783 5124 50  0000 C CNN
+F 2 "Atari:Cartridge_Slot" H 7100 3450 50  0001 C CNN
+F 3 "" H 7100 3450 50  0001 C CNN
+	1    6700 3500
+	1    0    0    -1  
+$EndComp
+Text GLabel 7000 2050 2    50   Input ~ 0
+A0
+Text GLabel 7000 2150 2    50   Input ~ 0
+A1
+Text GLabel 7000 2250 2    50   Input ~ 0
+A2
+Text GLabel 7000 2350 2    50   Input ~ 0
+A3
+Text GLabel 7000 2450 2    50   Input ~ 0
+A4
+Text GLabel 7000 2550 2    50   Input ~ 0
+A5
+Text GLabel 7000 2650 2    50   Input ~ 0
+A6
+Text GLabel 7000 2750 2    50   Input ~ 0
+A7
+Text GLabel 7000 2850 2    50   Input ~ 0
+A8
+Text GLabel 7000 2950 2    50   Input ~ 0
+A9
+Text GLabel 7000 3050 2    50   Input ~ 0
+A10
+Text GLabel 7000 3150 2    50   Input ~ 0
+A11
+Text GLabel 7000 3250 2    50   Input ~ 0
+A12
+Text GLabel 7000 3350 2    50   Input ~ 0
+D0
+Text GLabel 7000 3450 2    50   Input ~ 0
+D1
+Text GLabel 7000 3550 2    50   Input ~ 0
+D2
+Text GLabel 7000 3650 2    50   Input ~ 0
+D3
+Text GLabel 7000 3750 2    50   Input ~ 0
+D4
+Text GLabel 7000 3850 2    50   Input ~ 0
+D5
+Text GLabel 7000 3950 2    50   Input ~ 0
+D6
+Text GLabel 7000 4050 2    50   Input ~ 0
+D7
+Text GLabel 7000 4150 2    50   Input ~ 0
+S4
+Text GLabel 7000 4250 2    50   Input ~ 0
+S5
+Text GLabel 7000 4350 2    50   Input ~ 0
+RD5
+Text GLabel 7000 4450 2    50   Input ~ 0
+RD4
+Text GLabel 7000 4550 2    50   Input ~ 0
+CCTL
+Text GLabel 7000 4650 2    50   Input ~ 0
+RW
+Text GLabel 7000 4750 2    50   Input ~ 0
+BO2
+$Comp
+L power:+5P #PWR0197
+U 1 1 602F9620
+P 7475 4775
+F 0 "#PWR0197" H 7475 4625 50  0001 C CNN
+F 1 "+5P" H 7490 4948 50  0000 C CNN
+F 2 "" H 7475 4775 50  0001 C CNN
+F 3 "" H 7475 4775 50  0001 C CNN
+	1    7475 4775
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:C C18
+U 1 1 602F9DE7
+P 7475 5000
+F 0 "C18" H 7590 5046 50  0000 L CNN
+F 1 "100nF" H 7590 4955 50  0000 L CNN
+F 2 "Atari:C_Axial_L5.1mm_D2.5mm_P12.50mm_Horizontal" H 7513 4850 50  0001 C CNN
+F 3 "~" H 7475 5000 50  0001 C CNN
+	1    7475 5000
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	7000 4850 7475 4850
+Wire Wire Line
+	7475 4775 7475 4850
+Connection ~ 7475 4850
+Wire Wire Line
+	7000 4950 7000 5150
+Wire Wire Line
+	7000 5150 7475 5150
+$Comp
+L power:GND #PWR0198
+U 1 1 602FAB68
+P 7475 5275
+F 0 "#PWR0198" H 7475 5025 50  0001 C CNN
+F 1 "GND" H 7480 5102 50  0000 C CNN
+F 2 "" H 7475 5275 50  0001 C CNN
+F 3 "" H 7475 5275 50  0001 C CNN
+	1    7475 5275
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	7475 5150 7475 5275
+Connection ~ 7475 5150
 $EndSCHEMATC

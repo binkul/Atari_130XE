@@ -4,7 +4,7 @@ EELAYER 29 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
-Sheet 1 14
+Sheet 1 15
 Title ""
 Date ""
 Rev ""
@@ -29,8 +29,8 @@ $EndSheet
 $Sheet
 S 1050 2800 1225 1175
 U 6019B50C
-F0 "Video" 50
-F1 "Video.sch" 50
+F0 "Audio and Video" 50
+F1 "Audio and Video.sch" 50
 $EndSheet
 $Sheet
 S 4250 1125 1225 1175
@@ -91,5 +91,11 @@ S 1050 4475 1225 1175
 U 60250803
 F0 "MMU" 50
 F1 "MMU.sch" 50
+$EndSheet
+$Sheet
+S 2650 4475 1225 1175
+U 602D08E2
+F0 "Ports" 50
+F1 "Ports.sch" 50
 $EndSheet
 $EndSCHEMATC

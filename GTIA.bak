@@ -4,7 +4,7 @@ EELAYER 29 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
-Sheet 9 14
+Sheet 9 15
 Title ""
 Date ""
 Rev ""
@@ -543,17 +543,6 @@ F 3 "" H 7275 5900 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L power:+5VA #PWR0163
-U 1 1 602A10C2
-P 7275 4700
-F 0 "#PWR0163" H 7275 4550 50  0001 C CNN
-F 1 "+5VA" H 7290 4873 50  0000 C CNN
-F 2 "" H 7275 4700 50  0001 C CNN
-F 3 "" H 7275 4700 50  0001 C CNN
-	1    7275 4700
-	1    0    0    -1  
-$EndComp
-$Comp
 L Device:Crystal Y2
 U 1 1 602A36C7
 P 8150 5250
@@ -670,17 +659,6 @@ Wire Wire Line
 Wire Wire Line
 	5600 4425 9375 4425
 Connection ~ 9375 4425
-$Comp
-L power:+5VA #PWR0166
-U 1 1 602BC276
-P 10050 4350
-F 0 "#PWR0166" H 10050 4200 50  0001 C CNN
-F 1 "+5VA" H 10065 4523 50  0000 C CNN
-F 2 "" H 10050 4350 50  0001 C CNN
-F 3 "" H 10050 4350 50  0001 C CNN
-	1    10050 4350
-	1    0    0    -1  
-$EndComp
 Wire Wire Line
 	9925 4425 10050 4425
 Wire Wire Line
@@ -1707,4 +1685,58 @@ Wire Wire Line
 	7425 525  1050 525 
 Wire Wire Line
 	1050 525  1050 1600
+$Comp
+L Connector:DIN-5_180degree J2
+U 1 1 6027E470
+P 4525 7150
+F 0 "J2" H 4525 7150 50  0000 C CNN
+F 1 "Video" H 4525 6875 50  0000 C CNN
+F 2 "Atari:DIN_5_pin" H 4525 7150 50  0001 C CNN
+F 3 "http://www.mouser.com/ds/2/18/40_c091_abd_e-75918.pdf" H 4525 7150 50  0001 C CNN
+	1    4525 7150
+	-1   0    0    1   
+$EndComp
+$Comp
+L power:GND #PWR0182
+U 1 1 6029DB7D
+P 4525 7525
+F 0 "#PWR0182" H 4525 7275 50  0001 C CNN
+F 1 "GND" H 4530 7352 50  0000 C CNN
+F 2 "" H 4525 7525 50  0001 C CNN
+F 3 "" H 4525 7525 50  0001 C CNN
+	1    4525 7525
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	4525 7450 4525 7525
+Text GLabel 4225 7250 0    50   Input ~ 0
+CHROMA
+Text GLabel 4225 7150 0    50   Input ~ 0
+AUDIO
+Text GLabel 4825 7250 2    50   Input ~ 0
+COMPOSITE
+Text GLabel 4825 7150 2    50   Input ~ 0
+MONO
+$Comp
+L power:+5V #PWR0163
+U 1 1 602CA007
+P 10050 4350
+F 0 "#PWR0163" H 10050 4200 50  0001 C CNN
+F 1 "+5V" H 10065 4523 50  0000 C CNN
+F 2 "" H 10050 4350 50  0001 C CNN
+F 3 "" H 10050 4350 50  0001 C CNN
+	1    10050 4350
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:+5V #PWR0166
+U 1 1 602CB043
+P 7275 4700
+F 0 "#PWR0166" H 7275 4550 50  0001 C CNN
+F 1 "+5V" H 7290 4873 50  0000 C CNN
+F 2 "" H 7275 4700 50  0001 C CNN
+F 3 "" H 7275 4700 50  0001 C CNN
+	1    7275 4700
+	1    0    0    -1  
+$EndComp
 $EndSCHEMATC
