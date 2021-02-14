@@ -417,4 +417,30 @@ Text GLabel 6825 2525 0    50   Input ~ 0
 RNMI
 Text GLabel 1925 1675 3    50   Input ~ 0
 RNMI
+Text GLabel 2225 1675 3    50   Input ~ 0
+LP
+$Comp
+L Device:R R33
+U 1 1 6041696A
+P 2225 1525
+F 0 "R33" H 2295 1571 50  0000 L CNN
+F 1 "3k" H 2295 1480 50  0000 L CNN
+F 2 "Atari:R_Axial_DIN0207_L3.6mm_D2.2mm_P10.16mm_Horizontal" V 2155 1525 50  0001 C CNN
+F 3 "~" H 2225 1525 50  0001 C CNN
+	1    2225 1525
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:+5VA #PWR0223
+U 1 1 60416BF5
+P 2225 1250
+F 0 "#PWR0223" H 2225 1100 50  0001 C CNN
+F 1 "+5VA" H 2240 1423 50  0000 C CNN
+F 2 "" H 2225 1250 50  0001 C CNN
+F 3 "" H 2225 1250 50  0001 C CNN
+	1    2225 1250
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	2225 1250 2225 1375
 $EndSCHEMATC

@@ -171,4 +171,192 @@ Wire Wire Line
 Wire Wire Line
 	7025 2525 7025 2175
 Connection ~ 7475 2525
+$Comp
+L Atari:SIO_Port J1
+U 1 1 603D412B
+P 800 4175
+F 0 "J1" H 2628 4221 50  0000 L CNN
+F 1 "SIO" H 2628 4130 50  0000 L CNN
+F 2 "Atari:SIO_Slot" H 800 4175 50  0001 C CNN
+F 3 "" H 800 4175 50  0001 C CNN
+	1    800  4175
+	1    0    0    -1  
+$EndComp
+Text GLabel 1850 4775 0    50   Input ~ 0
+CLK_IN
+Text GLabel 1850 4675 0    50   Input ~ 0
+CLK_OUT
+Text GLabel 1850 4575 0    50   Input ~ 0
+DATA_IN
+Text GLabel 1850 4375 0    50   Input ~ 0
+DATA_OUT
+Text GLabel 1850 4175 0    50   Input ~ 0
+COMMAND
+Text GLabel 1850 4075 0    50   Input ~ 0
+MTR_CLR
+Text GLabel 1850 3975 0    50   Input ~ 0
+PROCEED
+Text GLabel 1850 3775 0    50   Input ~ 0
+SIOAUDIO
+Text GLabel 1850 3575 0    50   Input ~ 0
+INTRUPT
+Wire Wire Line
+	1850 4275 1275 4275
+Wire Wire Line
+	1275 4275 1275 4475
+Wire Wire Line
+	1275 4475 1850 4475
+$Comp
+L power:GND #PWR0217
+U 1 1 603D6D5A
+P 1275 5000
+F 0 "#PWR0217" H 1275 4750 50  0001 C CNN
+F 1 "GND" H 1280 4827 50  0000 C CNN
+F 2 "" H 1275 5000 50  0001 C CNN
+F 3 "" H 1275 5000 50  0001 C CNN
+	1    1275 5000
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	1275 4475 1275 5000
+Connection ~ 1275 4475
+Text GLabel 1850 3875 0    50   Input ~ 0
+READY
+$Comp
+L Connector_Generic:Conn_01x24 J8
+U 1 1 603E550F
+P 5425 4275
+F 0 "J8" H 5505 4267 50  0000 L CNN
+F 1 "Keyboard" H 5505 4176 50  0000 L CNN
+F 2 "Connector_PinHeader_2.54mm:PinHeader_1x24_P2.54mm_Vertical" H 5425 4275 50  0001 C CNN
+F 3 "~" H 5425 4275 50  0001 C CNN
+	1    5425 4275
+	1    0    0    -1  
+$EndComp
+Text GLabel 5225 5475 0    50   Input ~ 0
+RESET
+Text GLabel 5225 5375 0    50   Input ~ 0
+OPTION
+Text GLabel 5225 5275 0    50   Input ~ 0
+SELECT
+Text GLabel 5225 5175 0    50   Input ~ 0
+START
+Text GLabel 5225 5075 0    50   Input ~ 0
+BSC
+Text GLabel 5225 4975 0    50   Input ~ 0
+IN4
+Text GLabel 5225 4875 0    50   Input ~ 0
+OUT0
+Text GLabel 5225 4775 0    50   Input ~ 0
+IN0
+Text GLabel 5225 4675 0    50   Input ~ 0
+IN3
+Text GLabel 5225 4575 0    50   Input ~ 0
+OUT2
+Text GLabel 5225 4475 0    50   Input ~ 0
+OUT4
+Text GLabel 5225 4375 0    50   Input ~ 0
+OUT1
+Text GLabel 5225 4275 0    50   Input ~ 0
+OUT6
+Text GLabel 5225 4175 0    50   Input ~ 0
+IN1
+Text GLabel 5225 4075 0    50   Input ~ 0
+IN5
+Text GLabel 5225 3975 0    50   Input ~ 0
+IN7
+Text GLabel 5225 3875 0    50   Input ~ 0
+IN2
+Text GLabel 5225 3775 0    50   Input ~ 0
+OUT7
+Text GLabel 5225 3675 0    50   Input ~ 0
+OUT5
+Text GLabel 5225 3575 0    50   Input ~ 0
+OUT3
+Text GLabel 5225 3475 0    50   Input ~ 0
+IN6
+$Comp
+L power:GND #PWR0218
+U 1 1 603EA252
+P 4150 3525
+F 0 "#PWR0218" H 4150 3275 50  0001 C CNN
+F 1 "GND" H 4155 3352 50  0000 C CNN
+F 2 "" H 4150 3525 50  0001 C CNN
+F 3 "" H 4150 3525 50  0001 C CNN
+	1    4150 3525
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	4150 3375 4150 3525
+$Comp
+L Device:R R95
+U 1 1 603EACD2
+P 4550 3075
+F 0 "R95" V 4550 3075 50  0000 C CNN
+F 1 "1k" V 4500 2925 50  0000 C CNN
+F 2 "Atari:R_Axial_DIN0207_L3.6mm_D2.2mm_P10.16mm_Horizontal" V 4480 3075 50  0001 C CNN
+F 3 "~" H 4550 3075 50  0001 C CNN
+	1    4550 3075
+	0    1    1    0   
+$EndComp
+$Comp
+L Device:C C93
+U 1 1 603EB979
+P 4150 3225
+F 0 "C93" H 4175 3300 50  0000 L CNN
+F 1 "100nF" H 4175 3150 50  0000 L CNN
+F 2 "Atari:C_Axial_L5.1mm_D2.5mm_P12.50mm_Horizontal" H 4188 3075 50  0001 C CNN
+F 3 "~" H 4150 3225 50  0001 C CNN
+	1    4150 3225
+	1    0    0    -1  
+$EndComp
+Connection ~ 4150 3375
+Wire Wire Line
+	4150 3375 4900 3375
+$Comp
+L Device:C C95
+U 1 1 603ECF87
+P 4900 3225
+F 0 "C95" H 4750 3300 50  0000 L CNN
+F 1 "10nF" H 4700 3150 50  0000 L CNN
+F 2 "Atari:C_Axial_L5.1mm_D2.5mm_P12.50mm_Horizontal" H 4938 3075 50  0001 C CNN
+F 3 "~" H 4900 3225 50  0001 C CNN
+	1    4900 3225
+	1    0    0    -1  
+$EndComp
+Connection ~ 4900 3375
+Wire Wire Line
+	4900 3375 5225 3375
+Wire Wire Line
+	4700 3075 4900 3075
+Wire Wire Line
+	4150 3075 4400 3075
+Wire Wire Line
+	5225 3275 5050 3275
+Wire Wire Line
+	5050 3275 5050 3075
+Wire Wire Line
+	5050 3075 4900 3075
+Connection ~ 4900 3075
+Wire Wire Line
+	5225 3175 5225 2875
+Wire Wire Line
+	5225 2875 4150 2875
+Wire Wire Line
+	4150 2875 4150 3075
+Connection ~ 4150 3075
+$Comp
+L power:+5VA #PWR0219
+U 1 1 603EF951
+P 4150 2750
+F 0 "#PWR0219" H 4150 2600 50  0001 C CNN
+F 1 "+5VA" H 4165 2923 50  0000 C CNN
+F 2 "" H 4150 2750 50  0001 C CNN
+F 3 "" H 4150 2750 50  0001 C CNN
+	1    4150 2750
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	4150 2750 4150 2875
+Connection ~ 4150 2875
 $EndSCHEMATC
