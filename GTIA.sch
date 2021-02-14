@@ -153,7 +153,7 @@ U 1 1 60257A78
 P 1500 6200
 F 0 "Q1" H 1690 6246 50  0000 L CNN
 F 1 "2N3904" H 1690 6155 50  0000 L CNN
-F 2 "Package_TO_SOT_THT:TO-92" H 1700 6125 50  0001 L CIN
+F 2 "Package_TO_SOT_THT:TO-92L_Wide" H 1700 6125 50  0001 L CIN
 F 3 "https://www.fairchildsemi.com/datasheets/2N/2N3904.pdf" H 1500 6200 50  0001 L CNN
 	1    1500 6200
 	1    0    0    -1  
@@ -186,7 +186,7 @@ U 1 1 6025A6FA
 P 2375 5675
 F 0 "D2" V 2450 5825 50  0000 R CNN
 F 1 "1N4148" V 2450 5600 50  0000 R CNN
-F 2 "Diode_THT:D_DO-35_SOD27_P7.62mm_Horizontal" H 2375 5500 50  0001 C CNN
+F 2 "Diode_THT:D_DO-35_SOD27_P12.70mm_Horizontal" H 2375 5500 50  0001 C CNN
 F 3 "https://assets.nexperia.com/documents/data-sheet/1N4148_1N4448.pdf" H 2375 5675 50  0001 C CNN
 	1    2375 5675
 	0    -1   -1   0   
@@ -197,7 +197,7 @@ U 1 1 6025B7D9
 P 2675 6000
 F 0 "D3" H 2550 5950 50  0000 C CNN
 F 1 "1N4148" H 2675 5875 50  0000 C CNN
-F 2 "Diode_THT:D_DO-35_SOD27_P7.62mm_Horizontal" H 2675 5825 50  0001 C CNN
+F 2 "Diode_THT:D_DO-35_SOD27_P12.70mm_Horizontal" H 2675 5825 50  0001 C CNN
 F 3 "https://assets.nexperia.com/documents/data-sheet/1N4148_1N4448.pdf" H 2675 6000 50  0001 C CNN
 	1    2675 6000
 	-1   0    0    1   
@@ -1130,7 +1130,7 @@ U 1 1 603C3F62
 P 9200 1625
 F 0 "Q3" H 9390 1671 50  0000 L CNN
 F 1 "2N3904" H 9390 1580 50  0000 L CNN
-F 2 "Package_TO_SOT_THT:TO-92" H 9400 1550 50  0001 L CIN
+F 2 "Package_TO_SOT_THT:TO-92L_Wide" H 9400 1550 50  0001 L CIN
 F 3 "https://www.fairchildsemi.com/datasheets/2N/2N3904.pdf" H 9200 1625 50  0001 L CNN
 	1    9200 1625
 	1    0    0    -1  
@@ -1295,7 +1295,7 @@ U 1 1 604437C9
 P 7925 3375
 F 0 "Q2" H 8115 3421 50  0000 L CNN
 F 1 "2N3904" H 8115 3330 50  0000 L CNN
-F 2 "Package_TO_SOT_THT:TO-92" H 8125 3300 50  0001 L CIN
+F 2 "Package_TO_SOT_THT:TO-92L_Wide" H 8125 3300 50  0001 L CIN
 F 3 "https://www.fairchildsemi.com/datasheets/2N/2N3904.pdf" H 7925 3375 50  0001 L CNN
 	1    7925 3375
 	1    0    0    -1  

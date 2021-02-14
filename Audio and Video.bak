@@ -56,10 +56,10 @@ Connection ~ 8225 2500
 Text GLabel 7825 1650 0    50   Input ~ 0
 RF_VCC
 $Comp
-L Timer:LM555 U17
+L Timer:LM555 U19
 U 1 1 602FE634
 P 8425 4450
-F 0 "U17" H 8175 4825 50  0000 C CNN
+F 0 "U19" H 8175 4825 50  0000 C CNN
 F 1 "LM555" H 8650 4825 50  0000 C CNN
 F 2 "Package_DIP:DIP-8_W7.62mm_Socket" H 8425 4450 50  0001 C CNN
 F 3 "http://www.ti.com/lit/ds/symlink/lm555.pdf" H 8425 4450 50  0001 C CNN
