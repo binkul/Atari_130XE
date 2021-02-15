@@ -106,7 +106,7 @@ Wire Wire Line
 Wire Wire Line
 	8075 2525 8075 2700
 Wire Wire Line
-	9175 2050 9175 3175
+	9175 2050 9175 2850
 Wire Wire Line
 	8075 3000 8075 3175
 Wire Wire Line
@@ -359,4 +359,11 @@ $EndComp
 Wire Wire Line
 	4150 2750 4150 2875
 Connection ~ 4150 2875
+Text GLabel 9050 2850 0    50   Input ~ 0
+JOY_GND
+Wire Wire Line
+	9050 2850 9175 2850
+Connection ~ 9175 2850
+Wire Wire Line
+	9175 2850 9175 3175
 $EndSCHEMATC
