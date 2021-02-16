@@ -75,7 +75,7 @@ Wire Wire Line
 Wire Wire Line
 	825  4250 825  3825
 Text GLabel 1450 3800 0    50   Input ~ 0
-AUDIO
+SOUND
 Wire Wire Line
 	1450 3800 1600 3800
 Wire Wire Line
@@ -362,11 +362,11 @@ Text GLabel 3300 3200 2    50   Input ~ 0
 K4
 Text GLabel 3300 3300 2    50   Input ~ 0
 K3
-Text GLabel 8025 1350 0    50   Input ~ 0
+Text GLabel 8025 1550 0    50   Input ~ 0
 K2
 Text GLabel 8025 1450 0    50   Input ~ 0
 K1
-Text GLabel 8025 1550 0    50   Input ~ 0
+Text GLabel 8025 1350 0    50   Input ~ 0
 K0
 Wire Wire Line
 	8025 2550 8425 2550
@@ -1259,7 +1259,7 @@ U 1 1 603B1C68
 P 4050 4650
 F 0 "C98" H 4168 4696 50  0000 L CNN
 F 1 "10uF" H 4168 4605 50  0000 L CNN
-F 2 "Capacitor_THT:C_Axial_L12.0mm_D6.5mm_P15.00mm_Horizontal" H 4088 4500 50  0001 C CNN
+F 2 "Capacitor_THT:CP_Axial_L11.0mm_D6.0mm_P18.00mm_Horizontal" H 4088 4500 50  0001 C CNN
 F 3 "~" H 4050 4650 50  0001 C CNN
 	1    4050 4650
 	1    0    0    -1  

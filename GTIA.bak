@@ -283,7 +283,7 @@ Wire Wire Line
 	2975 5750 2975 6000
 Connection ~ 2975 6000
 Wire Wire Line
-	3325 5750 3325 6250
+	3325 5750 3325 6225
 Wire Wire Line
 	3325 5750 3300 5750
 Wire Wire Line
@@ -292,18 +292,13 @@ $Comp
 L Device:R_POT RV38
 U 1 1 602637FB
 P 3750 6075
-F 0 "RV38" H 3680 6121 50  0000 R CNN
-F 1 "500k" H 3680 6030 50  0000 R CNN
+F 0 "RV38" H 3850 6300 50  0000 R CNN
+F 1 "500k" H 3950 6225 50  0000 R CNN
 F 2 "Potentiometer_THT:Potentiometer_ACP_CA9-V10_Vertical_Hole" H 3750 6075 50  0001 C CNN
 F 3 "~" H 3750 6075 50  0001 C CNN
 	1    3750 6075
 	1    0    0    -1  
 $EndComp
-Wire Wire Line
-	3325 5750 3750 5750
-Wire Wire Line
-	3750 5750 3750 5925
-Connection ~ 3325 5750
 $Comp
 L Device:C C48
 U 1 1 6026513C
@@ -330,16 +325,9 @@ Wire Wire Line
 	1600 6400 1600 6725
 Wire Wire Line
 	4050 6550 4050 6725
-Wire Wire Line
-	4050 6725 3750 6725
 Connection ~ 1600 6725
 Wire Wire Line
 	1600 6725 1600 6750
-Wire Wire Line
-	3750 6225 3750 6725
-Connection ~ 3750 6725
-Wire Wire Line
-	3750 6725 3325 6725
 Wire Wire Line
 	3325 6550 3325 6725
 Connection ~ 3325 6725
@@ -1273,7 +1261,7 @@ L Device:L L32
 U 1 1 6040EDC4
 P 7575 3075
 F 0 "L32" V 7500 3075 50  0000 C CNN
-F 1 "100uH" V 7650 3075 50  0000 C CNN
+F 1 "100uH" V 7525 3300 50  0000 C CNN
 F 2 "Atari:L_Axial_L7.0mm_D3.3mm_P12.50mm_Horizontal_Fastron_MICC" H 7575 3075 50  0001 C CNN
 F 3 "~" H 7575 3075 50  0001 C CNN
 	1    7575 3075
@@ -1557,10 +1545,8 @@ Wire Wire Line
 Connection ~ 4600 3425
 Wire Wire Line
 	4600 3425 4725 3425
-Text GLabel 7425 4125 2    50   Input ~ 0
+Text GLabel 7100 4125 2    50   Input ~ 0
 LP
-Wire Wire Line
-	7100 4125 7425 4125
 Wire Wire Line
 	5150 3475 5150 3325
 Wire Wire Line
@@ -1739,4 +1725,47 @@ F 3 "" H 7275 4700 50  0001 C CNN
 	1    7275 4700
 	1    0    0    -1  
 $EndComp
+$Comp
+L Device:C C204
+U 1 1 60308154
+P 7625 3950
+F 0 "C204" H 7725 3875 50  0000 C CNN
+F 1 "100nF" H 7700 4050 50  0000 C CNN
+F 2 "Atari:C_Axial_L5.1mm_D2.5mm_P12.50mm_Horizontal" H 7663 3800 50  0001 C CNN
+F 3 "~" H 7625 3950 50  0001 C CNN
+	1    7625 3950
+	-1   0    0    1   
+$EndComp
+$Comp
+L power:GND #PWR0248
+U 1 1 60308DC4
+P 7625 4200
+F 0 "#PWR0248" H 7625 3950 50  0001 C CNN
+F 1 "GND" H 7625 4050 50  0000 C CNN
+F 2 "" H 7625 4200 50  0001 C CNN
+F 3 "" H 7625 4200 50  0001 C CNN
+	1    7625 4200
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	7625 4100 7625 4200
+Wire Wire Line
+	7625 3800 7625 3175
+Wire Wire Line
+	7625 3175 8025 3175
+Connection ~ 8025 3175
+Wire Wire Line
+	3325 6725 3575 6725
+Wire Wire Line
+	3750 5925 3575 5925
+Wire Wire Line
+	3575 5925 3575 6725
+Connection ~ 3575 6725
+Wire Wire Line
+	3575 6725 4050 6725
+Wire Wire Line
+	3750 6225 3325 6225
+Connection ~ 3325 6225
+Wire Wire Line
+	3325 6225 3325 6250
 $EndSCHEMATC
