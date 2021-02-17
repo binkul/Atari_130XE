@@ -52,7 +52,7 @@ D7
 Text GLabel 2100 3500 0    50   Input ~ 0
 RW
 Text GLabel 2100 3650 0    50   Input ~ 0
-O2
+BO2
 Text GLabel 2100 3800 0    50   Input ~ 0
 IRQ
 Text GLabel 2100 3950 0    50   Input ~ 0

@@ -52,7 +52,7 @@ D7
 Text GLabel 2100 3500 0    50   Input ~ 0
 RW
 Text GLabel 2100 3650 0    50   Input ~ 0
-O2
+BO2
 Text GLabel 2100 3800 0    50   Input ~ 0
 IRQ
 Text GLabel 2100 3950 0    50   Input ~ 0
@@ -362,11 +362,11 @@ Text GLabel 3300 3200 2    50   Input ~ 0
 K4
 Text GLabel 3300 3300 2    50   Input ~ 0
 K3
-Text GLabel 8025 1350 0    50   Input ~ 0
+Text GLabel 8025 1550 0    50   Input ~ 0
 K2
 Text GLabel 8025 1450 0    50   Input ~ 0
 K1
-Text GLabel 8025 1550 0    50   Input ~ 0
+Text GLabel 8025 1350 0    50   Input ~ 0
 K0
 Wire Wire Line
 	8025 2550 8425 2550

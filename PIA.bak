@@ -241,7 +241,7 @@ RST
 Text GLabel 3225 4925 0    50   Input ~ 0
 RW
 Text GLabel 3225 5025 0    50   Input ~ 0
-O2
+BO2
 Text GLabel 3225 4825 0    50   Input ~ 0
 PIA
 Wire Wire Line
