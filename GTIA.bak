@@ -539,7 +539,7 @@ F 1 "4,43 MHz" H 8150 5075 50  0000 C CNN
 F 2 "Crystal:Crystal_HC18-U_Horizontal" H 8150 5250 50  0001 C CNN
 F 3 "~" H 8150 5250 50  0001 C CNN
 	1    8150 5250
-	1    0    0    -1  
+	-1   0    0    1   
 $EndComp
 $Comp
 L Device:R R70
@@ -1769,10 +1769,10 @@ F 3 "" H 1050 4200 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L power:+5VA #PWR?
+L power:+5VA #PWR0166
 U 1 1 6035DAC7
 P 7275 4700
-F 0 "#PWR?" H 7275 4550 50  0001 C CNN
+F 0 "#PWR0166" H 7275 4550 50  0001 C CNN
 F 1 "+5VA" H 7290 4873 50  0000 C CNN
 F 2 "" H 7275 4700 50  0001 C CNN
 F 3 "" H 7275 4700 50  0001 C CNN
