@@ -25,12 +25,12 @@ F 3 "" H 8525 1800 50  0001 C CNN
 	1    8525 1800
 	0    1    1    0   
 $EndComp
-Text GLabel 7825 1500 0    50   Input ~ 0
+Text GLabel 6950 1500 0    50   Input ~ 0
 COMPOSITE
 Text GLabel 7825 1800 0    50   Input ~ 0
 COLOR
 Text GLabel 7825 1950 0    50   Input ~ 0
-MONO
+MONO_MOD
 Wire Wire Line
 	8225 2500 8325 2500
 Wire Wire Line
@@ -714,4 +714,17 @@ F 3 "" H 1125 6475 50  0001 C CNN
 	1    1125 6475
 	1    0    0    -1  
 $EndComp
+$Comp
+L Device:Ferrite_Bead FB7
+U 1 1 60348FAD
+P 7100 1500
+F 0 "FB7" V 6826 1500 50  0000 C CNN
+F 1 "Ferrite_Bead" V 6917 1500 50  0000 C CNN
+F 2 "Atari:L_Axial_L7.0mm_D3.3mm_P12.50mm_Horizontal_Fastron_MICC" V 7030 1500 50  0001 C CNN
+F 3 "~" H 7100 1500 50  0001 C CNN
+	1    7100 1500
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	7250 1500 7825 1500
 $EndSCHEMATC

@@ -30,7 +30,7 @@ COMPOSITE
 Text GLabel 7825 1800 0    50   Input ~ 0
 COLOR
 Text GLabel 7825 1950 0    50   Input ~ 0
-MONO
+MONO_MOD
 Wire Wire Line
 	8225 2500 8325 2500
 Wire Wire Line

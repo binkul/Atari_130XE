@@ -277,7 +277,7 @@ F 1 "1k" V 3034 5750 50  0000 C CNN
 F 2 "Atari:R_Axial_DIN0207_L3.6mm_D2.2mm_P10.16mm_Horizontal" V 3080 5750 50  0001 C CNN
 F 3 "~" H 3150 5750 50  0001 C CNN
 	1    3150 5750
-	0    1    1    0   
+	0    -1   -1   0   
 $EndComp
 Wire Wire Line
 	2975 5750 2975 6000
@@ -1204,7 +1204,7 @@ Wire Wire Line
 Wire Wire Line
 	9300 2275 9300 2425
 Wire Wire Line
-	9675 1900 9300 1900
+	9675 1900 9600 1900
 Connection ~ 9300 1900
 Wire Wire Line
 	9300 1900 9300 1975
@@ -1779,4 +1779,13 @@ F 3 "" H 7275 4700 50  0001 C CNN
 	1    7275 4700
 	1    0    0    -1  
 $EndComp
+Text GLabel 10425 2300 2    50   Input ~ 0
+MONO_MOD
+Wire Wire Line
+	10425 2300 9600 2300
+Wire Wire Line
+	9600 2300 9600 1900
+Connection ~ 9600 1900
+Wire Wire Line
+	9600 1900 9300 1900
 $EndSCHEMATC
