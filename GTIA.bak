@@ -62,7 +62,7 @@ FO0
 Text GLabel 3125 4525 0    50   Input ~ 0
 HALT
 Text GLabel 3125 4675 0    50   Input ~ 0
-O2
+BO2
 Text GLabel 3125 2075 0    50   Input ~ 0
 GTIA
 $Comp

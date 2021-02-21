@@ -597,4 +597,58 @@ Wire Wire Line
 Connection ~ 7575 4250
 Wire Wire Line
 	7575 4250 6025 4250
+$Comp
+L power:GND #PWR0250
+U 1 1 6032EFD4
+P 950 5125
+F 0 "#PWR0250" H 950 4875 50  0001 C CNN
+F 1 "GND" H 955 4952 50  0000 C CNN
+F 2 "" H 950 5125 50  0001 C CNN
+F 3 "" H 950 5125 50  0001 C CNN
+	1    950  5125
+	1    0    0    -1  
+$EndComp
+Connection ~ 950  4900
+Wire Wire Line
+	950  4900 950  5125
+Wire Wire Line
+	950  4800 950  4900
+$Comp
+L Connector_Generic:Conn_01x02 J50
+U 1 1 6032DAF0
+P 1150 4800
+F 0 "J50" H 1230 4792 50  0000 L CNN
+F 1 "Conn_01x02" H 1230 4701 50  0000 L CNN
+F 2 "Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical" H 1150 4800 50  0001 C CNN
+F 3 "~" H 1150 4800 50  0001 C CNN
+	1    1150 4800
+	1    0    0    -1  
+$EndComp
+$Comp
+L Connector_Generic:Conn_01x02 J51
+U 1 1 60336F5B
+P 1150 5525
+F 0 "J51" H 1230 5517 50  0000 L CNN
+F 1 "Conn_01x02" H 1230 5426 50  0000 L CNN
+F 2 "Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical" H 1150 5525 50  0001 C CNN
+F 3 "~" H 1150 5525 50  0001 C CNN
+	1    1150 5525
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR0251
+U 1 1 60337497
+P 950 5800
+F 0 "#PWR0251" H 950 5550 50  0001 C CNN
+F 1 "GND" H 955 5627 50  0000 C CNN
+F 2 "" H 950 5800 50  0001 C CNN
+F 3 "" H 950 5800 50  0001 C CNN
+	1    950  5800
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	950  5625 950  5800
+Wire Wire Line
+	950  5525 950  5625
+Connection ~ 950  5625
 $EndSCHEMATC

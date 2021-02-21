@@ -39,7 +39,6 @@ Text GLabel 3225 3775 0    50   Input ~ 0
 PB5
 Text GLabel 3225 3975 0    50   Input ~ 0
 PB7
-NoConn ~ 3225 3875
 Text GLabel 1725 2650 3    50   Input ~ 0
 PB0
 $Comp
@@ -133,17 +132,17 @@ F 3 "~" H 2600 2425 50  0001 C CNN
 	1    2600 2425
 	1    0    0    -1  
 $EndComp
-Text GLabel 2775 2650 3    50   Input ~ 0
+Text GLabel 2950 2650 3    50   Input ~ 0
 PB7
 $Comp
 L Device:R R87
 U 1 1 60299733
-P 2775 2425
-F 0 "R87" V 2775 2350 50  0000 L CNN
-F 1 "3k" H 2675 2575 50  0000 L CNN
-F 2 "Atari:R_Axial_DIN0207_L3.6mm_D2.2mm_P10.16mm_Horizontal" V 2705 2425 50  0001 C CNN
-F 3 "~" H 2775 2425 50  0001 C CNN
-	1    2775 2425
+P 2950 2425
+F 0 "R87" V 2950 2350 50  0000 L CNN
+F 1 "3k" H 2850 2575 50  0000 L CNN
+F 2 "Atari:R_Axial_DIN0207_L3.6mm_D2.2mm_P10.16mm_Horizontal" V 2880 2425 50  0001 C CNN
+F 3 "~" H 2950 2425 50  0001 C CNN
+	1    2950 2425
 	1    0    0    -1  
 $EndComp
 $Comp
@@ -204,12 +203,12 @@ $EndComp
 $Comp
 L power:+5VA #PWR0209
 U 1 1 6029A34C
-P 2775 2100
-F 0 "#PWR0209" H 2775 1950 50  0001 C CNN
-F 1 "+5VA" H 2790 2273 50  0000 C CNN
-F 2 "" H 2775 2100 50  0001 C CNN
-F 3 "" H 2775 2100 50  0001 C CNN
-	1    2775 2100
+P 2950 2100
+F 0 "#PWR0209" H 2950 1950 50  0001 C CNN
+F 1 "+5VA" H 2965 2273 50  0000 C CNN
+F 2 "" H 2950 2100 50  0001 C CNN
+F 3 "" H 2950 2100 50  0001 C CNN
+	1    2950 2100
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
@@ -223,7 +222,7 @@ Wire Wire Line
 Wire Wire Line
 	2600 2575 2600 2650
 Wire Wire Line
-	2775 2575 2775 2650
+	2950 2575 2950 2650
 Wire Wire Line
 	1900 2100 1900 2275
 Wire Wire Line
@@ -235,7 +234,7 @@ Wire Wire Line
 Wire Wire Line
 	2600 2100 2600 2275
 Wire Wire Line
-	2775 2100 2775 2275
+	2950 2100 2950 2275
 Text GLabel 3225 4725 0    50   Input ~ 0
 RST
 Text GLabel 3225 4925 0    50   Input ~ 0
@@ -1083,4 +1082,34 @@ $EndComp
 Wire Wire Line
 	8675 5250 8675 5075
 Connection ~ 8675 5075
+Text GLabel 3225 3875 0    50   Input ~ 0
+PB6
+$Comp
+L Device:R R501
+U 1 1 60344EEE
+P 2775 2425
+F 0 "R501" V 2775 2325 50  0000 L CNN
+F 1 "3k" H 2675 2575 50  0000 L CNN
+F 2 "Atari:R_Axial_DIN0207_L3.6mm_D2.2mm_P10.16mm_Horizontal" V 2705 2425 50  0001 C CNN
+F 3 "~" H 2775 2425 50  0001 C CNN
+	1    2775 2425
+	1    0    0    -1  
+$EndComp
+Text GLabel 2775 2650 3    50   Input ~ 0
+PB6
+Wire Wire Line
+	2775 2575 2775 2650
+$Comp
+L power:+5VA #PWR?
+U 1 1 603494C4
+P 2775 2100
+F 0 "#PWR?" H 2775 1950 50  0001 C CNN
+F 1 "+5VA" H 2790 2273 50  0000 C CNN
+F 2 "" H 2775 2100 50  0001 C CNN
+F 3 "" H 2775 2100 50  0001 C CNN
+	1    2775 2100
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	2775 2100 2775 2275
 $EndSCHEMATC
