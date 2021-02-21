@@ -727,4 +727,26 @@ F 3 "~" H 7100 1500 50  0001 C CNN
 $EndComp
 Wire Wire Line
 	7250 1500 7825 1500
+Text GLabel 875  1625 0    50   Input ~ 0
+EXTAUDIO
+$Comp
+L Device:C C22
+U 1 1 6039DB1C
+P 1275 1625
+F 0 "C22" V 1400 1575 50  0000 L CNN
+F 1 "4,7uF" V 1200 1350 50  0000 L CNN
+F 2 "Capacitor_THT:CP_Radial_D8.0mm_P3.50mm" H 1313 1475 50  0001 C CNN
+F 3 "~" H 1275 1625 50  0001 C CNN
+	1    1275 1625
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	875  1625 1125 1625
+Wire Wire Line
+	1425 1625 3675 1625
+Wire Wire Line
+	3675 1625 3675 2500
+Wire Wire Line
+	3675 2500 3275 2500
+Connection ~ 3275 2500
 $EndSCHEMATC

@@ -46,7 +46,7 @@ EXTSEL
 Text GLabel 2650 3750 2    50   Input ~ 0
 MPD
 Text GLabel 2650 3850 2    50   Input ~ 0
-AUDIO
+EXTAUDIO
 $Comp
 L power:GND #PWR0143
 U 1 1 60230922
