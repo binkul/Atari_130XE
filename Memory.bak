@@ -648,6 +648,7 @@ F 3 "" H 950 5800 50  0001 C CNN
 $EndComp
 Wire Wire Line
 	950  5625 950  5800
-Text GLabel 950  5525 0    50   Input ~ 0
-PB6
+Wire Wire Line
+	950  5525 950  5625
+Connection ~ 950  5625
 $EndSCHEMATC

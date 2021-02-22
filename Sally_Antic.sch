@@ -443,4 +443,6 @@ F 3 "" H 2225 1250 50  0001 C CNN
 $EndComp
 Wire Wire Line
 	2225 1250 2225 1375
+Text GLabel 8025 2475 2    50   Input ~ 0
+FO0
 $EndSCHEMATC
