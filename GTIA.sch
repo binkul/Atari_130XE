@@ -1788,4 +1788,19 @@ F 3 "" H 10050 4350 50  0001 C CNN
 	1    10050 4350
 	1    0    0    -1  
 $EndComp
+$Comp
+L Connector_Generic:Conn_01x01 J102
+U 1 1 6037C604
+P 800 6575
+F 0 "J102" H 950 6475 50  0000 C CNN
+F 1 "pin" H 718 6441 50  0000 C CNN
+F 2 "Connector_PinHeader_2.00mm:PinHeader_1x01_P2.00mm_Vertical" H 800 6575 50  0001 C CNN
+F 3 "~" H 800 6575 50  0001 C CNN
+	1    800  6575
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	1000 6575 1200 6575
+Wire Wire Line
+	1200 6575 1200 6200
 $EndSCHEMATC
