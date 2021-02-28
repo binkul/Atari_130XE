@@ -441,4 +441,7 @@ F 3 "" H 4100 3525 50  0001 C CNN
 	1    4100 3525
 	1    0    0    -1  
 $EndComp
+Wire Wire Line
+	4700 4925 4700 5225
+Connection ~ 4700 4925
 $EndSCHEMATC

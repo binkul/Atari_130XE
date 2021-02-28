@@ -1329,4 +1329,18 @@ $EndComp
 Wire Wire Line
 	9375 2725 9375 2850
 Connection ~ 9375 2850
+$Comp
+L Connector_Generic:Conn_01x01 J108
+U 1 1 60481C84
+P 5125 6025
+F 0 "J108" V 4997 6105 50  0000 L CNN
+F 1 "pin" V 5088 6105 50  0000 L CNN
+F 2 "Connector_PinHeader_2.00mm:PinHeader_1x01_P2.00mm_Vertical" H 5125 6025 50  0001 C CNN
+F 3 "~" H 5125 6025 50  0001 C CNN
+	1    5125 6025
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	5125 5825 5125 5700
+Connection ~ 5125 5700
 $EndSCHEMATC

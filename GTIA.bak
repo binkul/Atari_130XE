@@ -1803,4 +1803,45 @@ Wire Wire Line
 	1000 6575 1200 6575
 Wire Wire Line
 	1200 6575 1200 6200
+$Comp
+L Connector_Generic:Conn_01x01 J103
+U 1 1 603DC950
+P 2375 6400
+F 0 "J103" H 2525 6300 50  0000 C CNN
+F 1 "pin" H 2293 6266 50  0000 C CNN
+F 2 "Connector_PinHeader_2.00mm:PinHeader_1x01_P2.00mm_Vertical" H 2375 6400 50  0001 C CNN
+F 3 "~" H 2375 6400 50  0001 C CNN
+	1    2375 6400
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	2375 6200 2375 6000
+$Comp
+L Connector_Generic:Conn_01x01 J104
+U 1 1 603FEA4A
+P 5125 6250
+F 0 "J104" H 5275 6150 50  0000 C CNN
+F 1 "pin" H 5043 6116 50  0000 C CNN
+F 2 "Connector_PinHeader_2.00mm:PinHeader_1x01_P2.00mm_Vertical" H 5125 6250 50  0001 C CNN
+F 3 "~" H 5125 6250 50  0001 C CNN
+	1    5125 6250
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	5325 6250 5425 6250
+Connection ~ 5425 6250
+$Comp
+L Connector_Generic:Conn_01x01 J105
+U 1 1 6041A994
+P 6150 7550
+F 0 "J105" H 6300 7450 50  0000 C CNN
+F 1 "pin" H 6068 7416 50  0000 C CNN
+F 2 "Connector_PinHeader_2.00mm:PinHeader_1x01_P2.00mm_Vertical" H 6150 7550 50  0001 C CNN
+F 3 "~" H 6150 7550 50  0001 C CNN
+	1    6150 7550
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	6150 7350 6150 7125
+Connection ~ 6150 7125
 $EndSCHEMATC

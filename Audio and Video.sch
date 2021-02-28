@@ -353,7 +353,7 @@ F 3 "~" H 1025 3350 50  0001 C CNN
 	0    1    1    0   
 $EndComp
 Wire Wire Line
-	1175 3350 1600 3350
+	1175 3350 1200 3350
 Text GLabel 875  3350 0    50   Input ~ 0
 SOUND
 $Comp
@@ -660,7 +660,7 @@ Wire Wire Line
 Text GLabel 850  1400 0    50   Input ~ 0
 BELL
 Wire Wire Line
-	3475 1400 850  1400
+	3475 1400 3325 1400
 $Comp
 L power:GND #PWR0243
 U 1 1 6032B9C3
@@ -749,4 +749,36 @@ Wire Wire Line
 Wire Wire Line
 	3675 2500 3275 2500
 Connection ~ 3275 2500
+$Comp
+L Connector_Generic:Conn_01x01 J106
+U 1 1 604383A6
+P 3325 900
+F 0 "J106" V 3289 812 50  0000 R CNN
+F 1 "pin" V 3198 812 50  0000 R CNN
+F 2 "Connector_PinHeader_2.00mm:PinHeader_1x01_P2.00mm_Vertical" H 3325 900 50  0001 C CNN
+F 3 "~" H 3325 900 50  0001 C CNN
+	1    3325 900 
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	3325 1100 3325 1400
+Connection ~ 3325 1400
+Wire Wire Line
+	3325 1400 850  1400
+$Comp
+L Connector_Generic:Conn_01x01 J107
+U 1 1 6044E0CA
+P 1200 3800
+F 0 "J107" V 1072 3880 50  0000 L CNN
+F 1 "pin" V 1163 3880 50  0000 L CNN
+F 2 "Connector_PinHeader_2.00mm:PinHeader_1x01_P2.00mm_Vertical" H 1200 3800 50  0001 C CNN
+F 3 "~" H 1200 3800 50  0001 C CNN
+	1    1200 3800
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	1200 3600 1200 3350
+Connection ~ 1200 3350
+Wire Wire Line
+	1200 3350 1600 3350
 $EndSCHEMATC

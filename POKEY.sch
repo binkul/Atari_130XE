@@ -1078,8 +1078,6 @@ Wire Wire Line
 	5950 4000 6675 4000
 Wire Wire Line
 	5125 5700 5400 5700
-Wire Wire Line
-	5400 5700 5675 5700
 Connection ~ 5400 5700
 Wire Wire Line
 	5675 5700 5950 5700
@@ -1087,16 +1085,14 @@ Connection ~ 5675 5700
 $Comp
 L power:GND #PWR0231
 U 1 1 60348277
-P 5675 5850
-F 0 "#PWR0231" H 5675 5600 50  0001 C CNN
-F 1 "GND" H 5800 5825 50  0000 C CNN
-F 2 "" H 5675 5850 50  0001 C CNN
-F 3 "" H 5675 5850 50  0001 C CNN
-	1    5675 5850
+P 4775 5925
+F 0 "#PWR0231" H 4775 5675 50  0001 C CNN
+F 1 "GND" H 4900 5900 50  0000 C CNN
+F 2 "" H 4775 5925 50  0001 C CNN
+F 3 "" H 4775 5925 50  0001 C CNN
+	1    4775 5925
 	1    0    0    -1  
 $EndComp
-Wire Wire Line
-	5675 5700 5675 5850
 $Comp
 L Device:L L17
 U 1 1 6034FE08
@@ -1329,4 +1325,64 @@ $EndComp
 Wire Wire Line
 	9375 2725 9375 2850
 Connection ~ 9375 2850
+$Comp
+L Connector_Generic:Conn_01x01 J108
+U 1 1 60481C84
+P 5125 6025
+F 0 "J108" V 4997 6105 50  0000 L CNN
+F 1 "pin" V 5088 6105 50  0000 L CNN
+F 2 "Connector_PinHeader_2.00mm:PinHeader_1x01_P2.00mm_Vertical" H 5125 6025 50  0001 C CNN
+F 3 "~" H 5125 6025 50  0001 C CNN
+	1    5125 6025
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	5125 5825 5125 5700
+Connection ~ 5125 5700
+Wire Wire Line
+	5125 5700 4775 5700
+Wire Wire Line
+	4775 5700 4775 5925
+$Comp
+L Connector_Generic:Conn_01x01 J109
+U 1 1 604990D0
+P 5400 6025
+F 0 "J109" V 5272 6105 50  0000 L CNN
+F 1 "pin" V 5363 6105 50  0000 L CNN
+F 2 "Connector_PinHeader_2.00mm:PinHeader_1x01_P2.00mm_Vertical" H 5400 6025 50  0001 C CNN
+F 3 "~" H 5400 6025 50  0001 C CNN
+	1    5400 6025
+	0    1    1    0   
+$EndComp
+$Comp
+L Connector_Generic:Conn_01x01 J110
+U 1 1 604995D3
+P 5675 6025
+F 0 "J110" V 5547 6105 50  0000 L CNN
+F 1 "pin" V 5638 6105 50  0000 L CNN
+F 2 "Connector_PinHeader_2.00mm:PinHeader_1x01_P2.00mm_Vertical" H 5675 6025 50  0001 C CNN
+F 3 "~" H 5675 6025 50  0001 C CNN
+	1    5675 6025
+	0    1    1    0   
+$EndComp
+$Comp
+L Connector_Generic:Conn_01x01 J111
+U 1 1 604998EB
+P 5950 6025
+F 0 "J111" V 5822 6105 50  0000 L CNN
+F 1 "pin" V 5913 6105 50  0000 L CNN
+F 2 "Connector_PinHeader_2.00mm:PinHeader_1x01_P2.00mm_Vertical" H 5950 6025 50  0001 C CNN
+F 3 "~" H 5950 6025 50  0001 C CNN
+	1    5950 6025
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	5400 5825 5400 5700
+Wire Wire Line
+	5675 5825 5675 5700
+Wire Wire Line
+	5400 5700 5675 5700
+Wire Wire Line
+	5950 5825 5950 5700
+Connection ~ 5950 5700
 $EndSCHEMATC
