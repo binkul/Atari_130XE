@@ -1385,4 +1385,23 @@ Wire Wire Line
 Wire Wire Line
 	5950 5825 5950 5700
 Connection ~ 5950 5700
+$Comp
+L Connector_Generic:Conn_01x04 J201
+U 1 1 604341BE
+P 2425 6050
+F 0 "J201" H 2505 6042 50  0000 L CNN
+F 1 "Diagnostic" H 2505 5951 50  0000 L CNN
+F 2 "Connector_PinHeader_2.54mm:PinHeader_1x04_P2.54mm_Vertical" H 2425 6050 50  0001 C CNN
+F 3 "~" H 2425 6050 50  0001 C CNN
+	1    2425 6050
+	1    0    0    -1  
+$EndComp
+Text GLabel 2225 6050 0    50   Input ~ 0
+CLK_OUT
+Text GLabel 2225 5950 0    50   Input ~ 0
+CLK_IN
+Text GLabel 2225 6150 0    50   Input ~ 0
+DATA_IN
+Text GLabel 2225 6250 0    50   Input ~ 0
+DATA_OUT
 $EndSCHEMATC

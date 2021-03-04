@@ -1844,4 +1844,23 @@ $EndComp
 Wire Wire Line
 	6150 7350 6150 7125
 Connection ~ 6150 7125
+Text GLabel 2650 7100 0    50   Input ~ 0
+MONO
+Text GLabel 2650 7200 0    50   Input ~ 0
+COMPOSITE
+Text GLabel 2650 7300 0    50   Input ~ 0
+CHROMA
+Text GLabel 2650 7400 0    50   Input ~ 0
+AUDIO
+$Comp
+L Connector_Generic:Conn_01x04 J202
+U 1 1 6046696D
+P 2850 7200
+F 0 "J202" H 2930 7192 50  0000 L CNN
+F 1 "Diag" H 2930 7101 50  0000 L CNN
+F 2 "Connector_PinHeader_2.54mm:PinHeader_1x04_P2.54mm_Vertical" H 2850 7200 50  0001 C CNN
+F 3 "~" H 2850 7200 50  0001 C CNN
+	1    2850 7200
+	1    0    0    -1  
+$EndComp
 $EndSCHEMATC
