@@ -1844,9 +1844,9 @@ $EndComp
 Wire Wire Line
 	6150 7350 6150 7125
 Connection ~ 6150 7125
-Text GLabel 2650 7100 0    50   Input ~ 0
-MONO
 Text GLabel 2650 7200 0    50   Input ~ 0
+MONO
+Text GLabel 2650 7100 0    50   Input ~ 0
 COMPOSITE
 Text GLabel 2650 7300 0    50   Input ~ 0
 CHROMA
@@ -1863,4 +1863,28 @@ F 3 "~" H 2850 7200 50  0001 C CNN
 	1    2850 7200
 	1    0    0    -1  
 $EndComp
+$Comp
+L power:GND #PWR0253
+U 1 1 60456DB7
+P 3350 7500
+F 0 "#PWR0253" H 3350 7250 50  0001 C CNN
+F 1 "GND" H 3355 7327 50  0000 C CNN
+F 2 "" H 3350 7500 50  0001 C CNN
+F 3 "" H 3350 7500 50  0001 C CNN
+	1    3350 7500
+	1    0    0    -1  
+$EndComp
+$Comp
+L Connector_Generic:Conn_01x01 J210
+U 1 1 6046AFBB
+P 3550 7300
+F 0 "J210" H 3630 7342 50  0000 L CNN
+F 1 "Diag" H 3630 7251 50  0000 L CNN
+F 2 "Connector_PinHeader_2.54mm:PinHeader_1x01_P2.54mm_Vertical" H 3550 7300 50  0001 C CNN
+F 3 "~" H 3550 7300 50  0001 C CNN
+	1    3550 7300
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	3350 7300 3350 7500
 $EndSCHEMATC

@@ -1404,4 +1404,28 @@ Text GLabel 2225 6150 0    50   Input ~ 0
 DATA_IN
 Text GLabel 2225 6250 0    50   Input ~ 0
 DATA_OUT
+$Comp
+L Connector_Generic:Conn_01x01 J211
+U 1 1 6047C279
+P 3400 6075
+F 0 "J211" H 3480 6117 50  0000 L CNN
+F 1 "Diag" H 3480 6026 50  0000 L CNN
+F 2 "Connector_PinHeader_2.54mm:PinHeader_1x01_P2.54mm_Vertical" H 3400 6075 50  0001 C CNN
+F 3 "~" H 3400 6075 50  0001 C CNN
+	1    3400 6075
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR0254
+U 1 1 6047C647
+P 3200 6250
+F 0 "#PWR0254" H 3200 6000 50  0001 C CNN
+F 1 "GND" H 3325 6225 50  0000 C CNN
+F 2 "" H 3200 6250 50  0001 C CNN
+F 3 "" H 3200 6250 50  0001 C CNN
+	1    3200 6250
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	3200 6075 3200 6250
 $EndSCHEMATC

@@ -421,31 +421,35 @@ Wire Wire Line
 Wire Wire Line
 	10900 3225 10900 2850
 Connection ~ 10275 3225
-$Comp
-L Connector_Generic:Conn_01x08 J200
-U 1 1 60415DC7
-P 8150 4025
-F 0 "J200" H 8230 4017 50  0000 L CNN
-F 1 "Diagnostic Signal" H 8230 3926 50  0000 L CNN
-F 2 "Connector_PinHeader_2.54mm:PinHeader_1x08_P2.54mm_Vertical" H 8150 4025 50  0001 C CNN
-F 3 "~" H 8150 4025 50  0001 C CNN
-	1    8150 4025
-	1    0    0    -1  
-$EndComp
-Text GLabel 7950 4225 0    50   Input ~ 0
-CAS
 Text GLabel 7950 4325 0    50   Input ~ 0
-WRT
+CAS
 Text GLabel 7950 4425 0    50   Input ~ 0
+WRT
+Text GLabel 7950 4525 0    50   Input ~ 0
 RAS
-Text GLabel 7950 3925 0    50   Input ~ 0
-RW
 Text GLabel 7950 4025 0    50   Input ~ 0
+RW
+Text GLabel 7950 4125 0    50   Input ~ 0
 OSC
 Text GLabel 7950 3725 0    50   Input ~ 0
 O2
-Text GLabel 7950 4125 0    50   Input ~ 0
+Text GLabel 7950 4225 0    50   Input ~ 0
 CASINH
-Text GLabel 7950 3825 0    50   Input ~ 0
+Text GLabel 7950 3925 0    50   Input ~ 0
 EXTSEL
+$Comp
+L Connector_Generic:Conn_01x10 J200
+U 1 1 60423A62
+P 8150 4125
+F 0 "J200" H 8230 4117 50  0000 L CNN
+F 1 "Diag" H 8230 4026 50  0000 L CNN
+F 2 "Connector_PinHeader_2.54mm:PinHeader_1x10_P2.54mm_Vertical" H 8150 4125 50  0001 C CNN
+F 3 "~" H 8150 4125 50  0001 C CNN
+	1    8150 4125
+	1    0    0    -1  
+$EndComp
+Text GLabel 7950 3825 0    50   Input ~ 0
+REF
+Text GLabel 7950 4625 0    50   Input ~ 0
+GND
 $EndSCHEMATC
