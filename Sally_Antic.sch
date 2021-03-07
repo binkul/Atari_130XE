@@ -430,12 +430,13 @@ Text GLabel 8025 2475 2    50   Input ~ 0
 FO0
 Wire Wire Line
 	4700 4825 4700 4925
+Wire Wire Line
+	4700 4925 4700 5225
+Connection ~ 4700 4925
 $Comp
 L Atari:Sally U8
-U 1 1 603A2980
+U 1 1 6048F641
 P 4100 3525
-AR Path="/603A2980" Ref="U8"  Part="1" 
-AR Path="/60205A08/603A2980" Ref="U8"  Part="1" 
 F 0 "U8" H 4100 5280 50  0000 C CNN
 F 1 "Sally" H 4100 5189 50  0000 C CNN
 F 2 "Package_DIP:DIP-40_W15.24mm_Socket" H 4100 5098 50  0000 C CNN
@@ -443,7 +444,6 @@ F 3 "" H 4100 3525 50  0001 C CNN
 	1    4100 3525
 	1    0    0    -1  
 $EndComp
-Wire Wire Line
-	4700 4925 4700 5225
-Connection ~ 4700 4925
+NoConn ~ 3500 2525
+NoConn ~ 3500 2625
 $EndSCHEMATC

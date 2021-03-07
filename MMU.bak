@@ -177,9 +177,6 @@ Text GLabel 5875 2350 2    50   Input ~ 0
 PIA
 Text GLabel 5875 2250 2    50   Input ~ 0
 POKEY
-NoConn ~ 5875 2450
-NoConn ~ 5875 2650
-NoConn ~ 5875 2750
 $Comp
 L 74xx:74LS08 U18
 U 3 1 602ED5C7
@@ -315,4 +312,10 @@ F 3 "" H 1475 1750 50  0001 C CNN
 	1    1475 1750
 	1    0    0    -1  
 $EndComp
+Text GLabel 5875 2650 2    50   Input ~ 0
+D6XX
+Text GLabel 5875 2450 2    50   Input ~ 0
+D4XX
+Text GLabel 5875 2750 2    50   Input ~ 0
+D7XX
 $EndSCHEMATC

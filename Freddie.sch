@@ -437,19 +437,23 @@ Text GLabel 7950 4225 0    50   Input ~ 0
 CASINH
 Text GLabel 7950 3925 0    50   Input ~ 0
 EXTSEL
-$Comp
-L Connector_Generic:Conn_01x10 J200
-U 1 1 60423A62
-P 8150 4125
-F 0 "J200" H 8230 4117 50  0000 L CNN
-F 1 "Diag" H 8230 4026 50  0000 L CNN
-F 2 "Connector_PinHeader_2.54mm:PinHeader_1x10_P2.54mm_Vertical" H 8150 4125 50  0001 C CNN
-F 3 "~" H 8150 4125 50  0001 C CNN
-	1    8150 4125
-	1    0    0    -1  
-$EndComp
 Text GLabel 7950 3825 0    50   Input ~ 0
 REF
-Text GLabel 7950 4625 0    50   Input ~ 0
+Text GLabel 7950 4825 0    50   Input ~ 0
 GND
+$Comp
+L Connector_Generic:Conn_01x12 J200
+U 1 1 6047EC37
+P 8150 4225
+F 0 "J200" H 8230 4217 50  0000 L CNN
+F 1 "Diag" H 8230 4126 50  0000 L CNN
+F 2 "Connector_PinHeader_2.54mm:PinHeader_1x12_P2.54mm_Vertical" H 8150 4225 50  0001 C CNN
+F 3 "~" H 8150 4225 50  0001 C CNN
+	1    8150 4225
+	1    0    0    -1  
+$EndComp
+Text GLabel 7950 4625 0    50   Input ~ 0
+HALT
+Wire Wire Line
+	7950 4725 7950 4825
 $EndSCHEMATC

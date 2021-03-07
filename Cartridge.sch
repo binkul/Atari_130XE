@@ -189,26 +189,26 @@ F 3 "" H 7475 4775 50  0001 C CNN
 	1    7475 4775
 	1    0    0    -1  
 $EndComp
-Text GLabel 5025 2900 2    50   Input ~ 0
-D1XX
-Text GLabel 4525 2800 0    50   Input ~ 0
+Text GLabel 4525 3100 0    50   Input ~ 0
+D7XX
+Text GLabel 4525 3200 0    50   Input ~ 0
 BO2
-Text GLabel 4525 2900 0    50   Input ~ 0
+Text GLabel 4525 2800 0    50   Input ~ 0
 CCTL
 Text GLabel 4525 3000 0    50   Input ~ 0
 S4
-Text GLabel 4525 3100 0    50   Input ~ 0
+Text GLabel 4525 2900 0    50   Input ~ 0
 RD4
-Text GLabel 4525 3200 0    50   Input ~ 0
+Text GLabel 5025 2900 2    50   Input ~ 0
 S5
-Text GLabel 5025 2800 2    50   Input ~ 0
-RD5
 Text GLabel 5025 3000 2    50   Input ~ 0
+RD5
+Text GLabel 5025 2800 2    50   Input ~ 0
 D6XX
 Text GLabel 5025 3200 2    50   Input ~ 0
 GND
 Text GLabel 5025 3100 2    50   Input ~ 0
-RW
+MPD
 $Comp
 L Connector_Generic:Conn_02x05_Odd_Even J212
 U 1 1 604245DE
