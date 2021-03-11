@@ -206,7 +206,7 @@ RD5
 Text GLabel 5025 2800 2    50   Input ~ 0
 D6XX
 Text GLabel 5025 3200 2    50   Input ~ 0
-GND
+RST
 Text GLabel 5025 3100 2    50   Input ~ 0
 MPD
 $Comp

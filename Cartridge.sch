@@ -191,7 +191,7 @@ F 3 "" H 7475 4775 50  0001 C CNN
 $EndComp
 Text GLabel 4525 3100 0    50   Input ~ 0
 D7XX
-Text GLabel 4525 3200 0    50   Input ~ 0
+Text GLabel 5025 3300 2    50   Input ~ 0
 BO2
 Text GLabel 4525 2800 0    50   Input ~ 0
 CCTL
@@ -206,18 +206,34 @@ RD5
 Text GLabel 5025 2800 2    50   Input ~ 0
 D6XX
 Text GLabel 5025 3200 2    50   Input ~ 0
-GND
+RST
 Text GLabel 5025 3100 2    50   Input ~ 0
 MPD
 $Comp
-L Connector_Generic:Conn_02x05_Odd_Even J212
-U 1 1 604245DE
+L Connector_Generic:Conn_02x06_Odd_Even J212
+U 1 1 604B3554
 P 4725 3000
 F 0 "J212" H 4775 3417 50  0000 C CNN
 F 1 "Diag" H 4775 3326 50  0000 C CNN
-F 2 "Connector_PinHeader_2.54mm:PinHeader_2x05_P2.54mm_Vertical" H 4725 3000 50  0001 C CNN
+F 2 "Connector_PinHeader_2.54mm:PinHeader_2x06_P2.54mm_Vertical" H 4725 3000 50  0001 C CNN
 F 3 "~" H 4725 3000 50  0001 C CNN
 	1    4725 3000
 	1    0    0    -1  
 $EndComp
+$Comp
+L power:GND #PWR?
+U 1 1 604B4D92
+P 4525 3425
+F 0 "#PWR?" H 4525 3175 50  0001 C CNN
+F 1 "GND" H 4530 3252 50  0000 C CNN
+F 2 "" H 4525 3425 50  0001 C CNN
+F 3 "" H 4525 3425 50  0001 C CNN
+	1    4525 3425
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	4525 3200 4525 3300
+Wire Wire Line
+	4525 3300 4525 3425
+Connection ~ 4525 3300
 $EndSCHEMATC
